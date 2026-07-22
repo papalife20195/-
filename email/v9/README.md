@@ -17,3 +17,7 @@ All five product categories, 10 named product cards and prices, both discount me
 The supplied Figma assets are embedded in the repository as optimized JPG/PNG files for email use. SVG originals remain in the user-provided ZIP on `main`; production email uses raster images for client compatibility.
 
 Before production, move the GitHub RAW image URLs to CDN/ESP storage, fill final product/blog URLs and replace `{{unsubscribe_url}}` with the ESP variable.
+
+## Figma fidelity update
+
+V9 now includes the Figma-style green `–15%` overlay badge on every discounted product image and the original exported green cart button next to every price. Light category surfaces and rounded product modules are preserved in the HTML layout.
