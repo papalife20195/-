@@ -1,0 +1,1897 @@
+{
+  "metadata": {
+    "exportedAt": "2026-07-22T18:21:53.918Z",
+    "componentName": "макет",
+    "totalElements": 146,
+    "nestingDepth": 4,
+    "plugin": "Figma to JSON Exporter"
+  },
+  "designTokens": {
+    "colors": {
+      "color-rgb(255, 255, 255)": "rgb(255, 255, 255)",
+      "color-rgb(101, 125, 130)": "rgb(101, 125, 130)",
+      "color-rgb(0, 115, 174)": "rgb(0, 115, 174)",
+      "color-rgb(128, 186, 39)": "rgb(128, 186, 39)",
+      "color-rgb(29, 56, 66)": "rgb(29, 56, 66)",
+      "color-rgb(242, 250, 252)": "rgb(242, 250, 252)",
+      "color-rgb(113, 185, 73)": "rgb(113, 185, 73)"
+    },
+    "fonts": {
+      "ubuntu": {
+        "family": "Ubuntu",
+        "sizes": {
+          "size-14": "14px",
+          "size-11": "11px",
+          "size-29": "29px",
+          "size-18": "18px",
+          "size-24": "24px",
+          "size-26": "26px"
+        },
+        "weights": {
+          "weight-400": "400",
+          "weight-500": "500",
+          "weight-700": "700"
+        }
+      },
+      "arial": {
+        "family": "Arial",
+        "sizes": {
+          "size-18": "18px",
+          "size-14": "14px",
+          "size-12": "12px"
+        },
+        "weights": {
+          "weight-400": "400"
+        }
+      }
+    },
+    "spacing": {
+      "gap-191": "191px"
+    },
+    "effects": {}
+  },
+  "structure": {
+    "name": "-----",
+    "type": "FRAME",
+    "size": {
+      "w": 600,
+      "h": 4339
+    },
+    "styles": {
+      "bg": "rgb(255, 255, 255)",
+      "layout": {
+        "direction": "row",
+        "gap": 0,
+        "align": {
+          "main": "start",
+          "cross": "start"
+        }
+      }
+    },
+    "children": [
+      {
+        "name": "frame-1",
+        "type": "FRAME",
+        "size": {
+          "w": 540,
+          "h": 66
+        },
+        "styles": {
+          "layout": {
+            "direction": "row",
+            "gap": 191,
+            "align": {
+              "main": "center",
+              "cross": "center"
+            }
+          }
+        },
+        "children": [
+          {
+            "name": "-----2",
+            "type": "RECTANGLE",
+            "size": {
+              "w": 124,
+              "h": 66
+            }
+          },
+          {
+            "name": "data---------------------------------",
+            "type": "TEXT",
+            "size": {
+              "w": 225,
+              "h": 16
+            },
+            "content": "Лёгкая подборка на каждый день",
+            "styles": {
+              "bg": "rgb(101, 125, 130)",
+              "text": {
+                "family": "Ubuntu",
+                "size": 14,
+                "weight": "400",
+                "align": "right"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "group-1",
+        "type": "GROUP",
+        "size": {
+          "w": 600,
+          "h": 32
+        },
+        "children": [
+          {
+            "name": "rectangle-1",
+            "type": "RECTANGLE",
+            "size": {
+              "w": 600,
+              "h": 32
+            },
+            "styles": {
+              "bg": "rgb(0, 115, 174)"
+            }
+          },
+          {
+            "name": "------------------------------",
+            "type": "TEXT",
+            "size": {
+              "w": 281,
+              "h": 13
+            },
+            "content": "Кисломолочные продукты Мясновъ",
+            "styles": {
+              "bg": "rgb(255, 255, 255)",
+              "text": {
+                "family": "Ubuntu",
+                "size": 11,
+                "weight": "500",
+                "align": "right"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "group-11",
+        "type": "GROUP",
+        "size": {
+          "w": 600,
+          "h": 140
+        },
+        "children": [
+          {
+            "name": "rectangle-1",
+            "type": "RECTANGLE",
+            "size": {
+              "w": 600,
+              "h": 140
+            },
+            "styles": {
+              "bg": "rgb(0, 115, 174)"
+            }
+          }
+        ]
+      },
+      {
+        "name": "group-23",
+        "type": "GROUP",
+        "size": {
+          "w": 600,
+          "h": 140
+        },
+        "children": [
+          {
+            "name": "rectangle-1",
+            "type": "RECTANGLE",
+            "size": {
+              "w": 600,
+              "h": 140
+            },
+            "styles": {
+              "bg": "rgb(0, 115, 174)"
+            }
+          }
+        ]
+      },
+      {
+        "name": "group-30",
+        "type": "GROUP",
+        "size": {
+          "w": 600,
+          "h": 279
+        },
+        "children": [
+          {
+            "name": "rectangle-1",
+            "type": "RECTANGLE",
+            "size": {
+              "w": 600,
+              "h": 279
+            },
+            "styles": {
+              "bg": "rgb(0, 115, 174)"
+            }
+          }
+        ]
+      },
+      {
+        "name": "group-2",
+        "type": "GROUP",
+        "size": {
+          "w": 810,
+          "h": 60
+        },
+        "children": [
+          {
+            "name": "rectangle-1",
+            "type": "RECTANGLE",
+            "size": {
+              "w": 600,
+              "h": 60
+            },
+            "styles": {
+              "bg": "rgb(0, 115, 174)"
+            }
+          },
+          {
+            "name": "group-3",
+            "type": "GROUP",
+            "size": {
+              "w": 810,
+              "h": 24
+            },
+            "children": [
+              {
+                "name": "-15--------------------------------3------",
+                "type": "TEXT",
+                "size": {
+                  "w": 380,
+                  "h": 24
+                },
+                "content": "–15% на все йогурты при покупке от 3 штук*",
+                "styles": {
+                  "text": {
+                    "family": "Arial",
+                    "size": 18,
+                    "weight": "400",
+                    "align": "right"
+                  }
+                }
+              },
+              {
+                "name": "-15--------------------------------3------",
+                "type": "TEXT",
+                "size": {
+                  "w": 380,
+                  "h": 24
+                },
+                "content": "–15% на все йогурты при покупке от 3 штук*",
+                "styles": {
+                  "text": {
+                    "family": "Arial",
+                    "size": 18,
+                    "weight": "400",
+                    "align": "right"
+                  }
+                }
+              },
+              {
+                "name": "ellipse-1",
+                "type": "ELLIPSE",
+                "size": {
+                  "w": 6,
+                  "h": 6
+                },
+                "styles": {
+                  "bg": "rgb(255, 255, 255)"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "heading-1---------------------------------------------",
+        "type": "TEXT",
+        "size": {
+          "w": 402,
+          "h": 90
+        },
+        "content": "Лёгкость + питательность = любимая молочка из КуулКлевер",
+        "styles": {
+          "bg": "rgb(128, 186, 39)",
+          "text": {
+            "family": "Ubuntu",
+            "size": 29,
+            "weight": "500",
+            "align": "left"
+          }
+        }
+      },
+      {
+        "name": "b_------_------------_--1--1",
+        "type": "RECTANGLE",
+        "size": {
+          "w": 317,
+          "h": 262
+        }
+      },
+      {
+        "name": "b_-_-----_3_---------_-1",
+        "type": "RECTANGLE",
+        "size": {
+          "w": 540,
+          "h": 411
+        }
+      },
+      {
+        "name": "heading-1---------------------------------------------",
+        "type": "TEXT",
+        "size": {
+          "w": 308,
+          "h": 100
+        },
+        "content": "Весной хочется лёгкой еды: залить йогуртом гранолу, перекусить простоквашей или греческим йогуртом.\nМы только за: сделали для вас одборку полезной кисломолочки.",
+        "styles": {
+          "bg": "rgb(29, 56, 66)",
+          "text": {
+            "family": "Ubuntu",
+            "size": 14,
+            "weight": "400",
+            "align": "left"
+          }
+        }
+      },
+      {
+        "name": "heading-1---------------------------------------------",
+        "type": "TEXT",
+        "size": {
+          "w": 546,
+          "h": 40
+        },
+        "content": "Обезжиренные питьевые йогурты, обогащённые полезными лактобактериями.\nМаксимум витаминов и лёгкость!",
+        "styles": {
+          "text": {
+            "family": "Arial",
+            "size": 14,
+            "weight": "400",
+            "align": "left"
+          }
+        }
+      },
+      {
+        "name": "heading-1---------------------------------------------",
+        "type": "TEXT",
+        "size": {
+          "w": 32,
+          "h": 20
+        },
+        "content": "01 /",
+        "styles": {
+          "text": {
+            "family": "Ubuntu",
+            "size": 18,
+            "weight": "400",
+            "align": "left"
+          }
+        }
+      },
+      {
+        "name": "heading-1---------------------------------------------",
+        "type": "TEXT",
+        "size": {
+          "w": 150,
+          "h": 24
+        },
+        "content": "Био-йогурты",
+        "styles": {
+          "bg": "rgb(128, 186, 39)",
+          "text": {
+            "family": "Ubuntu",
+            "size": 24,
+            "weight": "500",
+            "align": "left"
+          }
+        }
+      },
+      {
+        "name": "rectangle-4",
+        "type": "RECTANGLE",
+        "size": {
+          "w": 258,
+          "h": 100
+        },
+        "styles": {
+          "bg": "rgb(242, 250, 252)"
+        }
+      },
+      {
+        "name": "rectangle-8",
+        "type": "RECTANGLE",
+        "size": {
+          "w": 258,
+          "h": 100
+        },
+        "styles": {
+          "bg": "rgb(242, 250, 252)"
+        }
+      },
+      {
+        "name": "rectangle-10",
+        "type": "RECTANGLE",
+        "size": {
+          "w": 258,
+          "h": 100
+        },
+        "styles": {
+          "bg": "rgb(242, 250, 252)"
+        }
+      },
+      {
+        "name": "rectangle-7",
+        "type": "RECTANGLE",
+        "size": {
+          "w": 540,
+          "h": 108
+        },
+        "styles": {
+          "bg": "rgb(242, 250, 252)"
+        }
+      },
+      {
+        "name": "rectangle-6",
+        "type": "RECTANGLE",
+        "size": {
+          "w": 540,
+          "h": 259
+        },
+        "styles": {
+          "bg": "rgb(242, 250, 252)",
+          "radius": 14
+        }
+      },
+      {
+        "name": "rectangle-5",
+        "type": "RECTANGLE",
+        "size": {
+          "w": 258,
+          "h": 100
+        },
+        "styles": {
+          "bg": "rgb(242, 250, 252)"
+        }
+      },
+      {
+        "name": "rectangle-9",
+        "type": "RECTANGLE",
+        "size": {
+          "w": 258,
+          "h": 100
+        },
+        "styles": {
+          "bg": "rgb(242, 250, 252)"
+        }
+      },
+      {
+        "name": "rectangle-11",
+        "type": "RECTANGLE",
+        "size": {
+          "w": 258,
+          "h": 100
+        },
+        "styles": {
+          "bg": "rgb(242, 250, 252)"
+        }
+      },
+      {
+        "name": "b_-----_------_-----_--1",
+        "type": "RECTANGLE",
+        "size": {
+          "w": 258,
+          "h": 258
+        }
+      },
+      {
+        "name": "b_-----_------_-----_--3",
+        "type": "RECTANGLE",
+        "size": {
+          "w": 258,
+          "h": 258
+        }
+      },
+      {
+        "name": "b_-----_------_-----_--6",
+        "type": "RECTANGLE",
+        "size": {
+          "w": 258,
+          "h": 258
+        }
+      },
+      {
+        "name": "b_-----_------_-----_--2",
+        "type": "RECTANGLE",
+        "size": {
+          "w": 258,
+          "h": 258
+        }
+      },
+      {
+        "name": "b_-----_------_-----_--4",
+        "type": "RECTANGLE",
+        "size": {
+          "w": 258,
+          "h": 258
+        }
+      },
+      {
+        "name": "b_-----_------_-----_--7",
+        "type": "RECTANGLE",
+        "size": {
+          "w": 258,
+          "h": 258
+        }
+      },
+      {
+        "name": "----------",
+        "type": "TEXT",
+        "size": {
+          "w": 179,
+          "h": 20
+        },
+        "content": "БИО йогурт",
+        "styles": {
+          "bg": "rgb(29, 56, 66)",
+          "text": {
+            "family": "Ubuntu",
+            "size": 18,
+            "weight": "700",
+            "align": "left"
+          }
+        }
+      },
+      {
+        "name": "---------------------------",
+        "type": "TEXT",
+        "size": {
+          "w": 194,
+          "h": 42
+        },
+        "content": "Молочная сыворотка Клеверти",
+        "styles": {
+          "bg": "rgb(29, 56, 66)",
+          "text": {
+            "family": "Ubuntu",
+            "size": 18,
+            "weight": "700",
+            "align": "left"
+          }
+        }
+      },
+      {
+        "name": "----------",
+        "type": "TEXT",
+        "size": {
+          "w": 194,
+          "h": 21
+        },
+        "content": "Ацидофилин",
+        "styles": {
+          "bg": "rgb(29, 56, 66)",
+          "text": {
+            "family": "Ubuntu",
+            "size": 18,
+            "weight": "700",
+            "align": "left"
+          }
+        }
+      },
+      {
+        "name": "----------------",
+        "type": "TEXT",
+        "size": {
+          "w": 179,
+          "h": 20
+        },
+        "content": "Греческий йогурт",
+        "styles": {
+          "bg": "rgb(29, 56, 66)",
+          "text": {
+            "family": "Ubuntu",
+            "size": 18,
+            "weight": "700",
+            "align": "left"
+          }
+        }
+      },
+      {
+        "name": "-------------------",
+        "type": "TEXT",
+        "size": {
+          "w": 196,
+          "h": 21
+        },
+        "content": "Термостатный йогурт",
+        "styles": {
+          "bg": "rgb(29, 56, 66)",
+          "text": {
+            "family": "Ubuntu",
+            "size": 18,
+            "weight": "700",
+            "align": "left"
+          }
+        }
+      },
+      {
+        "name": "-------------------------",
+        "type": "TEXT",
+        "size": {
+          "w": 257,
+          "h": 21
+        },
+        "content": "Термостатный йогурт Манго",
+        "styles": {
+          "bg": "rgb(29, 56, 66)",
+          "text": {
+            "family": "Ubuntu",
+            "size": 18,
+            "weight": "700",
+            "align": "left"
+          }
+        }
+      },
+      {
+        "name": "-----------------------------------------",
+        "type": "TEXT",
+        "size": {
+          "w": 233,
+          "h": 42
+        },
+        "content": "Греческий двухслойный йогурт с нектарином",
+        "styles": {
+          "bg": "rgb(29, 56, 66)",
+          "text": {
+            "family": "Ubuntu",
+            "size": 18,
+            "weight": "700",
+            "align": "left"
+          }
+        }
+      },
+      {
+        "name": "52--",
+        "type": "TEXT",
+        "size": {
+          "w": 52,
+          "h": 22
+        },
+        "content": "52 ₽",
+        "styles": {
+          "bg": "rgb(0, 115, 174)",
+          "text": {
+            "family": "Ubuntu",
+            "size": 26,
+            "weight": "700",
+            "align": "left"
+          }
+        }
+      },
+      {
+        "name": "59--",
+        "type": "TEXT",
+        "size": {
+          "w": 52,
+          "h": 22
+        },
+        "content": "59 ₽",
+        "styles": {
+          "bg": "rgb(0, 115, 174)",
+          "text": {
+            "family": "Ubuntu",
+            "size": 26,
+            "weight": "700",
+            "align": "left"
+          }
+        }
+      },
+      {
+        "name": "65--",
+        "type": "TEXT",
+        "size": {
+          "w": 52,
+          "h": 22
+        },
+        "content": "65 ₽",
+        "styles": {
+          "bg": "rgb(0, 115, 174)",
+          "text": {
+            "family": "Ubuntu",
+            "size": 26,
+            "weight": "700",
+            "align": "left"
+          }
+        }
+      },
+      {
+        "name": "64--",
+        "type": "TEXT",
+        "size": {
+          "w": 52,
+          "h": 22
+        },
+        "content": "64 ₽",
+        "styles": {
+          "bg": "rgb(0, 115, 174)",
+          "text": {
+            "family": "Ubuntu",
+            "size": 26,
+            "weight": "700",
+            "align": "left"
+          }
+        }
+      },
+      {
+        "name": "48--",
+        "type": "TEXT",
+        "size": {
+          "w": 52,
+          "h": 22
+        },
+        "content": "48 ₽",
+        "styles": {
+          "bg": "rgb(0, 115, 174)",
+          "text": {
+            "family": "Ubuntu",
+            "size": 26,
+            "weight": "700",
+            "align": "left"
+          }
+        }
+      },
+      {
+        "name": "48--",
+        "type": "TEXT",
+        "size": {
+          "w": 52,
+          "h": 22
+        },
+        "content": "48 ₽",
+        "styles": {
+          "bg": "rgb(0, 115, 174)",
+          "text": {
+            "family": "Ubuntu",
+            "size": 26,
+            "weight": "700",
+            "align": "left"
+          }
+        }
+      },
+      {
+        "name": "74--",
+        "type": "TEXT",
+        "size": {
+          "w": 52,
+          "h": 22
+        },
+        "content": "74 ₽",
+        "styles": {
+          "bg": "rgb(0, 115, 174)",
+          "text": {
+            "family": "Ubuntu",
+            "size": 26,
+            "weight": "700",
+            "align": "left"
+          }
+        }
+      },
+      {
+        "name": "------------------------------------",
+        "type": "TEXT",
+        "size": {
+          "w": 236,
+          "h": 37
+        },
+        "content": "БИО йогурт Вишня–\nчерешня–семена чиа",
+        "styles": {
+          "bg": "rgb(29, 56, 66)",
+          "text": {
+            "family": "Ubuntu",
+            "size": 18,
+            "weight": "700",
+            "align": "left"
+          }
+        }
+      },
+      {
+        "name": "-----------------------",
+        "type": "TEXT",
+        "size": {
+          "w": 160,
+          "h": 37
+        },
+        "content": "Клеверти Персик-маракуя",
+        "styles": {
+          "bg": "rgb(29, 56, 66)",
+          "text": {
+            "family": "Ubuntu",
+            "size": 18,
+            "weight": "700",
+            "align": "left"
+          }
+        }
+      },
+      {
+        "name": "-------------------------------------",
+        "type": "TEXT",
+        "size": {
+          "w": 221,
+          "h": 37
+        },
+        "content": "Ацидофилин со злаками и семенами льна",
+        "styles": {
+          "bg": "rgb(29, 56, 66)",
+          "text": {
+            "family": "Ubuntu",
+            "size": 18,
+            "weight": "700",
+            "align": "left"
+          }
+        }
+      },
+      {
+        "name": "72--",
+        "type": "TEXT",
+        "size": {
+          "w": 53,
+          "h": 22
+        },
+        "content": "72 ₽",
+        "styles": {
+          "bg": "rgb(0, 115, 174)",
+          "text": {
+            "family": "Ubuntu",
+            "size": 26,
+            "weight": "700",
+            "align": "left"
+          }
+        }
+      },
+      {
+        "name": "54--",
+        "type": "TEXT",
+        "size": {
+          "w": 53,
+          "h": 22
+        },
+        "content": "54 ₽",
+        "styles": {
+          "bg": "rgb(0, 115, 174)",
+          "text": {
+            "family": "Ubuntu",
+            "size": 26,
+            "weight": "700",
+            "align": "left"
+          }
+        }
+      },
+      {
+        "name": "88--",
+        "type": "TEXT",
+        "size": {
+          "w": 53,
+          "h": 22
+        },
+        "content": "88 ₽",
+        "styles": {
+          "bg": "rgb(0, 115, 174)",
+          "text": {
+            "family": "Ubuntu",
+            "size": 26,
+            "weight": "700",
+            "align": "left"
+          }
+        }
+      },
+      {
+        "name": "group-4",
+        "type": "GROUP",
+        "size": {
+          "w": 53,
+          "h": 53
+        },
+        "children": [
+          {
+            "name": "ellipse-3",
+            "type": "ELLIPSE",
+            "size": {
+              "w": 47,
+              "h": 48
+            },
+            "styles": {
+              "bg": "rgb(255, 255, 255)"
+            }
+          },
+          {
+            "name": "a_------_---------1",
+            "type": "RECTANGLE",
+            "size": {
+              "w": 53,
+              "h": 53
+            }
+          }
+        ]
+      },
+      {
+        "name": "group-19",
+        "type": "GROUP",
+        "size": {
+          "w": 53,
+          "h": 53
+        },
+        "children": [
+          {
+            "name": "ellipse-3",
+            "type": "ELLIPSE",
+            "size": {
+              "w": 47,
+              "h": 48
+            },
+            "styles": {
+              "bg": "rgb(255, 255, 255)"
+            }
+          },
+          {
+            "name": "a_------_---------1",
+            "type": "RECTANGLE",
+            "size": {
+              "w": 53,
+              "h": 53
+            }
+          }
+        ]
+      },
+      {
+        "name": "group-26",
+        "type": "GROUP",
+        "size": {
+          "w": 53,
+          "h": 53
+        },
+        "children": [
+          {
+            "name": "ellipse-3",
+            "type": "ELLIPSE",
+            "size": {
+              "w": 47,
+              "h": 48
+            },
+            "styles": {
+              "bg": "rgb(255, 255, 255)"
+            }
+          },
+          {
+            "name": "a_------_---------1",
+            "type": "RECTANGLE",
+            "size": {
+              "w": 53,
+              "h": 53
+            }
+          }
+        ]
+      },
+      {
+        "name": "group-8",
+        "type": "GROUP",
+        "size": {
+          "w": 53,
+          "h": 53
+        },
+        "children": [
+          {
+            "name": "ellipse-3",
+            "type": "ELLIPSE",
+            "size": {
+              "w": 47,
+              "h": 48
+            },
+            "styles": {
+              "bg": "rgb(255, 255, 255)"
+            }
+          },
+          {
+            "name": "a_------_---------1",
+            "type": "RECTANGLE",
+            "size": {
+              "w": 53,
+              "h": 53
+            }
+          }
+        ]
+      },
+      {
+        "name": "group-20",
+        "type": "GROUP",
+        "size": {
+          "w": 53,
+          "h": 53
+        },
+        "children": [
+          {
+            "name": "ellipse-3",
+            "type": "ELLIPSE",
+            "size": {
+              "w": 47,
+              "h": 48
+            },
+            "styles": {
+              "bg": "rgb(255, 255, 255)"
+            }
+          },
+          {
+            "name": "a_------_---------1",
+            "type": "RECTANGLE",
+            "size": {
+              "w": 53,
+              "h": 53
+            }
+          }
+        ]
+      },
+      {
+        "name": "group-27",
+        "type": "GROUP",
+        "size": {
+          "w": 53,
+          "h": 53
+        },
+        "children": [
+          {
+            "name": "ellipse-3",
+            "type": "ELLIPSE",
+            "size": {
+              "w": 47,
+              "h": 48
+            },
+            "styles": {
+              "bg": "rgb(255, 255, 255)"
+            }
+          },
+          {
+            "name": "a_------_---------1",
+            "type": "RECTANGLE",
+            "size": {
+              "w": 53,
+              "h": 53
+            }
+          }
+        ]
+      },
+      {
+        "name": "b_-----_------_-----_--2",
+        "type": "RECTANGLE",
+        "size": {
+          "w": 16,
+          "h": 5
+        }
+      },
+      {
+        "name": "b_-----_------_-----_--5",
+        "type": "RECTANGLE",
+        "size": {
+          "w": 16,
+          "h": 5
+        }
+      },
+      {
+        "name": "group-9",
+        "type": "GROUP",
+        "size": {
+          "w": 52,
+          "h": 52
+        },
+        "children": [
+          {
+            "name": "group-5",
+            "type": "GROUP",
+            "size": {
+              "w": 52,
+              "h": 52
+            },
+            "children": [
+              {
+                "name": "ellipse-2",
+                "type": "ELLIPSE",
+                "size": {
+                  "w": 52,
+                  "h": 52
+                },
+                "styles": {
+                  "bg": "rgb(113, 185, 73)"
+                }
+              },
+              {
+                "name": "image-1784730734958-1",
+                "type": "FRAME",
+                "size": {
+                  "w": 31,
+                  "h": 30
+                },
+                "styles": {
+                  "layout": {
+                    "direction": "row",
+                    "gap": 0,
+                    "align": {
+                      "main": "start",
+                      "cross": "start"
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "vector",
+            "type": "VECTOR",
+            "size": {
+              "w": 27,
+              "h": 27
+            },
+            "styles": {
+              "bg": "rgb(255, 255, 255)"
+            }
+          }
+        ]
+      },
+      {
+        "name": "group-24",
+        "type": "GROUP",
+        "size": {
+          "w": 52,
+          "h": 52
+        },
+        "children": [
+          {
+            "name": "group-5",
+            "type": "GROUP",
+            "size": {
+              "w": 52,
+              "h": 52
+            },
+            "children": [
+              {
+                "name": "ellipse-2",
+                "type": "ELLIPSE",
+                "size": {
+                  "w": 52,
+                  "h": 52
+                },
+                "styles": {
+                  "bg": "rgb(113, 185, 73)"
+                }
+              },
+              {
+                "name": "image-1784730734958-1",
+                "type": "FRAME",
+                "size": {
+                  "w": 31,
+                  "h": 30
+                },
+                "styles": {
+                  "layout": {
+                    "direction": "row",
+                    "gap": 0,
+                    "align": {
+                      "main": "start",
+                      "cross": "start"
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "vector",
+            "type": "VECTOR",
+            "size": {
+              "w": 27,
+              "h": 27
+            },
+            "styles": {
+              "bg": "rgb(255, 255, 255)"
+            }
+          }
+        ]
+      },
+      {
+        "name": "heading-1---------------------------------------------",
+        "type": "TEXT",
+        "size": {
+          "w": 378,
+          "h": 40
+        },
+        "content": "Как Био йогурты влияют на настроение и что такое пробиотики LGG-рассказали в блоге КуулКлевер Лайф:",
+        "styles": {
+          "bg": "rgb(255, 255, 255)",
+          "text": {
+            "family": "Ubuntu",
+            "size": 14,
+            "weight": "400",
+            "align": "left"
+          }
+        }
+      },
+      {
+        "name": "heading-1---------------------------------------------",
+        "type": "TEXT",
+        "size": {
+          "w": 378,
+          "h": 40
+        },
+        "content": "Как Клеверти снижает стресс и почему эту сыворотку любят спортсмены — читайте в блоге КуулКлевер Лайф:",
+        "styles": {
+          "bg": "rgb(255, 255, 255)",
+          "text": {
+            "family": "Ubuntu",
+            "size": 14,
+            "weight": "400",
+            "align": "left"
+          }
+        }
+      },
+      {
+        "name": "group-31",
+        "type": "GROUP",
+        "size": {
+          "w": 44,
+          "h": 16
+        },
+        "children": [
+          {
+            "name": "heading-1---------------------------------------------",
+            "type": "TEXT",
+            "size": {
+              "w": 44,
+              "h": 16
+            },
+            "content": "Каталог",
+            "styles": {
+              "bg": "rgb(113, 185, 73)",
+              "text": {
+                "family": "Arial",
+                "size": 12,
+                "weight": "400",
+                "align": "left"
+              }
+            }
+          },
+          {
+            "name": "rectangle-7",
+            "type": "RECTANGLE",
+            "size": {
+              "w": 43,
+              "h": 1
+            },
+            "styles": {
+              "bg": "rgb(113, 185, 73)"
+            }
+          }
+        ]
+      },
+      {
+        "name": "group-32",
+        "type": "GROUP",
+        "size": {
+          "w": 101,
+          "h": 16
+        },
+        "children": [
+          {
+            "name": "heading-1---------------------------------------------",
+            "type": "TEXT",
+            "size": {
+              "w": 101,
+              "h": 16
+            },
+            "content": "КуулКлевер Лайф",
+            "styles": {
+              "bg": "rgb(113, 185, 73)",
+              "text": {
+                "family": "Arial",
+                "size": 12,
+                "weight": "400",
+                "align": "left"
+              }
+            }
+          },
+          {
+            "name": "rectangle-7",
+            "type": "RECTANGLE",
+            "size": {
+              "w": 100,
+              "h": 1
+            },
+            "styles": {
+              "bg": "rgb(113, 185, 73)"
+            }
+          }
+        ]
+      },
+      {
+        "name": "group-33",
+        "type": "GROUP",
+        "size": {
+          "w": 65,
+          "h": 16
+        },
+        "children": [
+          {
+            "name": "heading-1---------------------------------------------",
+            "type": "TEXT",
+            "size": {
+              "w": 65,
+              "h": 16
+            },
+            "content": "Отписаться",
+            "styles": {
+              "bg": "rgb(113, 185, 73)",
+              "text": {
+                "family": "Arial",
+                "size": 12,
+                "weight": "400",
+                "align": "left"
+              }
+            }
+          },
+          {
+            "name": "rectangle-7",
+            "type": "RECTANGLE",
+            "size": {
+              "w": 64,
+              "h": 1
+            },
+            "styles": {
+              "bg": "rgb(113, 185, 73)"
+            }
+          }
+        ]
+      },
+      {
+        "name": "heading-1---------------------------------------------",
+        "type": "TEXT",
+        "size": {
+          "w": 32,
+          "h": 20
+        },
+        "content": "02 /",
+        "styles": {
+          "text": {
+            "family": "Ubuntu",
+            "size": 18,
+            "weight": "400",
+            "align": "left"
+          }
+        }
+      },
+      {
+        "name": "heading-1---------------------------------------------",
+        "type": "TEXT",
+        "size": {
+          "w": 32,
+          "h": 20
+        },
+        "content": "03 /",
+        "styles": {
+          "text": {
+            "family": "Ubuntu",
+            "size": 18,
+            "weight": "400",
+            "align": "left"
+          }
+        }
+      },
+      {
+        "name": "heading-1---------------------------------------------",
+        "type": "TEXT",
+        "size": {
+          "w": 32,
+          "h": 20
+        },
+        "content": "04 /",
+        "styles": {
+          "text": {
+            "family": "Ubuntu",
+            "size": 18,
+            "weight": "400",
+            "align": "left"
+          }
+        }
+      },
+      {
+        "name": "heading-1---------------------------------------------",
+        "type": "TEXT",
+        "size": {
+          "w": 32,
+          "h": 20
+        },
+        "content": "05 /",
+        "styles": {
+          "text": {
+            "family": "Ubuntu",
+            "size": 18,
+            "weight": "400",
+            "align": "left"
+          }
+        }
+      },
+      {
+        "name": "heading-1---------------------------------------------",
+        "type": "TEXT",
+        "size": {
+          "w": 222,
+          "h": 24
+        },
+        "content": "Греческие йогурты",
+        "styles": {
+          "bg": "rgb(128, 186, 39)",
+          "text": {
+            "family": "Ubuntu",
+            "size": 24,
+            "weight": "500",
+            "align": "left"
+          }
+        }
+      },
+      {
+        "name": "heading-1---------------------------------------------",
+        "type": "TEXT",
+        "size": {
+          "w": 271,
+          "h": 24
+        },
+        "content": "Термостатные йогурты",
+        "styles": {
+          "bg": "rgb(128, 186, 39)",
+          "text": {
+            "family": "Ubuntu",
+            "size": 24,
+            "weight": "500",
+            "align": "left"
+          }
+        }
+      },
+      {
+        "name": "heading-1---------------------------------------------",
+        "type": "TEXT",
+        "size": {
+          "w": 397,
+          "h": 24
+        },
+        "content": "Сывороточные напитки Клеверти",
+        "styles": {
+          "bg": "rgb(128, 186, 39)",
+          "text": {
+            "family": "Ubuntu",
+            "size": 24,
+            "weight": "500",
+            "align": "left"
+          }
+        }
+      },
+      {
+        "name": "heading-1---------------------------------------------",
+        "type": "TEXT",
+        "size": {
+          "w": 153,
+          "h": 24
+        },
+        "content": "Ацидофилин",
+        "styles": {
+          "bg": "rgb(128, 186, 39)",
+          "text": {
+            "family": "Ubuntu",
+            "size": 24,
+            "weight": "500",
+            "align": "left"
+          }
+        }
+      },
+      {
+        "name": "heading-1---------------------------------------------",
+        "type": "TEXT",
+        "size": {
+          "w": 345,
+          "h": 40
+        },
+        "content": "Мягкий сливочный вкус, бархатистая консистенция и много-много белка.",
+        "styles": {
+          "bg": "rgb(29, 56, 66)",
+          "text": {
+            "family": "Ubuntu",
+            "size": 14,
+            "weight": "400",
+            "align": "left"
+          }
+        }
+      },
+      {
+        "name": "heading-1---------------------------------------------",
+        "type": "TEXT",
+        "size": {
+          "w": 345,
+          "h": 40
+        },
+        "content": "Сохранили всю пользу природного молока,\nгустые и по-особенному нежные.",
+        "styles": {
+          "bg": "rgb(29, 56, 66)",
+          "text": {
+            "family": "Ubuntu",
+            "size": 14,
+            "weight": "400",
+            "align": "left"
+          }
+        }
+      },
+      {
+        "name": "heading-1---------------------------------------------",
+        "type": "TEXT",
+        "size": {
+          "w": 345,
+          "h": 60
+        },
+        "content": "Не только вкусные, но и полезные:\nбогаты белками, которые полностью\nусваиваются и помогают росту мышц",
+        "styles": {
+          "bg": "rgb(29, 56, 66)",
+          "text": {
+            "family": "Ubuntu",
+            "size": 14,
+            "weight": "400",
+            "align": "left"
+          }
+        }
+      },
+      {
+        "name": "heading-1---------------------------------------------",
+        "type": "TEXT",
+        "size": {
+          "w": 464,
+          "h": 40
+        },
+        "content": "Нежный и лёгкий, с дружелюбной молочнокислой бактерией, которая помогает восстановить иммунитет.",
+        "styles": {
+          "bg": "rgb(29, 56, 66)",
+          "text": {
+            "family": "Ubuntu",
+            "size": 14,
+            "weight": "400",
+            "align": "left"
+          }
+        }
+      },
+      {
+        "name": "heading-1---------------------------------------------",
+        "type": "TEXT",
+        "size": {
+          "w": 203,
+          "h": 17
+        },
+        "content": "* Условия акции уточняйте в магазине.",
+        "styles": {
+          "bg": "rgb(255, 255, 255)",
+          "text": {
+            "family": "Ubuntu",
+            "size": 11,
+            "weight": "400",
+            "align": "left"
+          }
+        }
+      },
+      {
+        "name": "b_-_-----_-------_-----1",
+        "type": "RECTANGLE",
+        "size": {
+          "w": 267,
+          "h": 239
+        },
+        "styles": {
+          "radius": 10
+        }
+      },
+      {
+        "name": "group-12",
+        "type": "GROUP",
+        "size": {
+          "w": 53,
+          "h": 53
+        },
+        "children": [
+          {
+            "name": "ellipse-3",
+            "type": "ELLIPSE",
+            "size": {
+              "w": 47,
+              "h": 48
+            },
+            "styles": {
+              "bg": "rgb(255, 255, 255)"
+            }
+          },
+          {
+            "name": "a_------_---------1",
+            "type": "RECTANGLE",
+            "size": {
+              "w": 53,
+              "h": 53
+            }
+          }
+        ]
+      },
+      {
+        "name": "group-15",
+        "type": "GROUP",
+        "size": {
+          "w": 53,
+          "h": 53
+        },
+        "children": [
+          {
+            "name": "ellipse-3",
+            "type": "ELLIPSE",
+            "size": {
+              "w": 47,
+              "h": 48
+            },
+            "styles": {
+              "bg": "rgb(255, 255, 255)"
+            }
+          },
+          {
+            "name": "a_------_---------1",
+            "type": "RECTANGLE",
+            "size": {
+              "w": 53,
+              "h": 53
+            }
+          }
+        ]
+      },
+      {
+        "name": "group-18",
+        "type": "GROUP",
+        "size": {
+          "w": 1112,
+          "h": 60
+        },
+        "children": [
+          {
+            "name": "rectangle-1",
+            "type": "RECTANGLE",
+            "size": {
+              "w": 600,
+              "h": 60
+            },
+            "styles": {
+              "bg": "rgb(0, 115, 174)"
+            }
+          },
+          {
+            "name": "group-3",
+            "type": "GROUP",
+            "size": {
+              "w": 1112,
+              "h": 24
+            },
+            "children": [
+              {
+                "name": "--------15-----------------------------------------2------",
+                "type": "TEXT",
+                "size": {
+                  "w": 531,
+                  "h": 24
+                },
+                "content": "Скидка –15% на все напитки Клеверти при покупке от 2 штук*",
+                "styles": {
+                  "text": {
+                    "family": "Arial",
+                    "size": 18,
+                    "weight": "400",
+                    "align": "right"
+                  }
+                }
+              },
+              {
+                "name": "--------15-----------------------------------------2------",
+                "type": "TEXT",
+                "size": {
+                  "w": 531,
+                  "h": 24
+                },
+                "content": "Скидка –15% на все напитки Клеверти при покупке от 2 штук*",
+                "styles": {
+                  "text": {
+                    "family": "Arial",
+                    "size": 18,
+                    "weight": "400",
+                    "align": "right"
+                  }
+                }
+              },
+              {
+                "name": "ellipse-1",
+                "type": "ELLIPSE",
+                "size": {
+                  "w": 6,
+                  "h": 6
+                },
+                "styles": {
+                  "bg": "rgb(255, 255, 255)"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "-----2",
+        "type": "RECTANGLE",
+        "size": {
+          "w": 231,
+          "h": 123
+        }
+      },
+      {
+        "name": "----------------------",
+        "type": "INSTANCE",
+        "size": {
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "name": "----------------------",
+        "type": "INSTANCE",
+        "size": {
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "name": "-------",
+        "type": "INSTANCE",
+        "size": {
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "name": "-------",
+        "type": "INSTANCE",
+        "size": {
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "name": "-------------",
+        "type": "INSTANCE",
+        "size": {
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "name": "-------",
+        "type": "INSTANCE",
+        "size": {
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "name": "-------",
+        "type": "INSTANCE",
+        "size": {
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "name": "-------------------",
+        "type": "INSTANCE",
+        "size": {
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "name": "-------",
+        "type": "INSTANCE",
+        "size": {
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "name": "-------",
+        "type": "INSTANCE",
+        "size": {
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "name": "-------------------",
+        "type": "INSTANCE",
+        "size": {
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "name": "-------",
+        "type": "INSTANCE",
+        "size": {
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "name": "-------",
+        "type": "INSTANCE",
+        "size": {
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "name": "-----------------------",
+        "type": "INSTANCE",
+        "size": {
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "name": "-------------",
+        "type": "INSTANCE",
+        "size": {
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "name": "-------",
+        "type": "INSTANCE",
+        "size": {
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "name": "-------",
+        "type": "INSTANCE",
+        "size": {
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "name": "-----------------------------",
+        "type": "INSTANCE",
+        "size": {
+          "w": 0,
+          "h": 0
+        }
+      }
+    ]
+  },
+  "summary": {
+    "components": 0,
+    "instances": 18,
+    "frames": 4,
+    "texts": 49,
+    "hasAutoLayout": true,
+    "hasEffects": false
+  }
+}
