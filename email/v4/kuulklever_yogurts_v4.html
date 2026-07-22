@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8">
+  <meta name="x-apple-disable-message-reformatting">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Лёгкость + питательность — КуулКлевер</title>
+  <!--
+    EMAIL V4 — КуулКлевер / кисломолочные продукты
+    Перед запуском:
+    1. Замените IMAGE_BASE на адрес своего CDN / ESP-хранилища.
+    2. Замените ссылки с data-link на актуальные deeplink / UTM-ссылки.
+    3. Подтвердите цены и условия акций. Они перенесены из исходного ТЗ.
+    4. В ESP подставьте корректную ссылку отписки вместо {{unsubscribe_url}}.
+
+    Изображения в репозитории: email/v4/assets/
+    GitHub RAW ниже оставлен только для предпросмотра. Для реальной рассылки
+    изображения обязательно нужно загрузить на CDN или в файловое хранилище ESP.
+  -->
+  <style>
+    html, body { margin:0 !important; padding:0 !important; height:100% !important; width:100% !important; }
+    * { -ms-text-size-adjust:100%; -webkit-text-size-adjust:100%; }
+    table, td { mso-table-lspace:0pt !important; mso-table-rspace:0pt !important; }
+    table { border-spacing:0 !important; border-collapse:collapse !important; table-layout:fixed !important; margin:0 auto !important; }
+    a { text-decoration:none; }
+    img { -ms-interpolation-mode:bicubic; border:0; outline:none; text-decoration:none; display:block; }
+    .email-container { width:100%; max-width:600px; margin:0 auto; }
+    .fluid { max-width:100%; height:auto; }
+    .button:hover { background:#034d75 !important; color:#ffffff !important; }
+    .outline-button:hover { background:#75bd20 !important; border-color:#75bd20 !important; color:#ffffff !important; }
+    /* Progressive enhancement only. Outlook and clients without animation show the static promo block. */
+    @keyframes softGlow { 0%,100% { box-shadow:0 0 0 0 rgba(117,189,32,.22); } 50% { box-shadow:0 0 0 10px rgba(117,189,32,0); } }
+    .soft-glow { animation:softGlow 2.8s ease-in-out infinite; }
+    @media screen and (max-width: 600px) {
+      .email-container { width:100% !important; }
+      .mobile-pad { padding-left:20px !important; padding-right:20px !important; }
+      .mobile-stack { display:block !important; width:100% !important; max-width:100% !important; }
+      .mobile-stack-pad { padding:0 0 14px !important; }
+      .mobile-center { text-align:center !important; }
+      .mobile-center img { margin:0 auto !important; }
+      .hero-title { font-size:34px !important; line-height:39px !important; }
+      .section-title { font-size:28px !important; line-height:33px !important; }
+    }
+  </style>
+  <!--[if mso]><style>* { font-family:Arial, sans-serif !important; }</style><![endif]-->
+</head>
+<body width="100%" style="margin:0; padding:0; background-color:#eef8fb;">
+  <center role="article" aria-roledescription="email" lang="ru" style="width:100%; background-color:#eef8fb;">
+    <!-- Preheader -->
+    <div style="display:none; font-size:1px; color:#eef8fb; line-height:1px; max-height:0; max-width:0; opacity:0; overflow:hidden; mso-hide:all;">
+      Скидка 15% на йогурты при покупке от трёх штук. Выбирайте любимые вкусы.
+    </div>
+    <div style="display:none; max-height:0; overflow:hidden; mso-hide:all;">&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;</div>
+
+    <table role="presentation" width="100%" style="background:#eef8fb;" cellspacing="0" cellpadding="0" border="0">
+      <tr><td align="center">
+        <table role="presentation" class="email-container" width="600" cellspacing="0" cellpadding="0" border="0" style="background:#ffffff; font-family:Arial, Helvetica, sans-serif; color:#18343f;">
+
+          <!-- Header -->
+          <tr><td align="center" style="padding:12px 24px 8px; background:#ffffff;">
+            <a href="https://www.coolclever.ru/?utm_source=email&utm_medium=email&utm_campaign=yogurts_v4" target="_blank" aria-label="КуулКлевер">
+              <img src="https://raw.githubusercontent.com/papalife20195/-/arena/019f89a7-repo/email/v4/assets/logo.png" width="168" alt="КуулКлевер — от чистого сердца" style="width:168px; max-width:100%; height:auto;">
+            </a>
+          </td></tr>
+          <tr><td align="center" style="padding:10px 20px; background:#034d75; color:#ffffff; font-size:11px; line-height:14px; letter-spacing:.8px; font-weight:bold;">
+            ЛЁГКИЕ ВКУСЫ ДЛЯ КАЖДОГО ДНЯ
+          </td></tr>
+
+          <!-- Hero: live text + real supplied bio-yogurt visual -->
+          <tr><td style="padding:20px 20px 0; background:#effbff;">
+            <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background:#effbff; border-radius:18px; overflow:hidden;">
+              <tr>
+                <td class="mobile-stack mobile-pad" width="49%" valign="top" style="padding:27px 10px 10px 26px;">
+                  <div class="hero-title" style="font-size:31px; line-height:35px; font-weight:bold; color:#034d75;">Лёгкость +<br>питательность</div>
+                  <div style="padding-top:13px; font-size:18px; line-height:23px; font-weight:bold; color:#18343f;">Любимая молочка<br>из КуулКлевер</div>
+                  <div style="padding-top:13px; font-size:13px; line-height:18px; color:#45626c;">Полезная подборка на весну: завтраки, перекусы и лёгкие ужины.</div>
+                </td>
+                <td class="mobile-stack mobile-pad" width="51%" valign="bottom" style="padding:16px 16px 0 6px;">
+                  <img class="fluid" src="https://raw.githubusercontent.com/papalife20195/-/arena/019f89a7-repo/email/v4/assets/bio.jpg" width="270" alt="Био-йогурты КуулКлевер с полезными бактериями LGG" style="width:100%; border-radius:120px 120px 0 0;">
+                </td>
+              </tr>
+              <tr><td colspan="2" align="center" style="padding:18px 20px 22px; background:#034d75;">
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0"><tr>
+                  <td align="center" style="padding:12px 21px; background:#ffffff; border-radius:16px;">
+                    <span style="font-size:29px; line-height:30px; font-weight:bold; color:#75bd20;">–15%</span><br>
+                    <span style="font-size:13px; line-height:18px; font-weight:bold; color:#034d75;">НА ВСЕ ЙОГУРТЫ</span><br>
+                    <span style="font-size:11px; line-height:14px; color:#45626c;">при покупке от 3 шт.*</span>
+                  </td>
+                </tr></table>
+                <div style="padding-top:14px;">
+                  <a class="button soft-glow" href="https://www.coolclever.ru/catalog/myasnov/raznye-napravleniya-pitaniya/fermentirovannye-produkty/kislomolochnye-napitki-yogurty?utm_source=email&utm_medium=email&utm_campaign=yogurts_v4&utm_content=hero" target="_blank" style="display:inline-block; padding:14px 26px; border-radius:26px; background:#75bd20; color:#ffffff; font-size:13px; line-height:16px; font-weight:bold; letter-spacing:.2px;">ВЫБРАТЬ ЙОГУРТЫ</a>
+                </div>
+                <div style="padding-top:13px; font-size:10px; line-height:14px; color:#d6edf7;">* Условия акции уточняйте в магазине</div>
+              </td></tr>
+            </table>
+          </td></tr>
+
+          <tr><td align="center" style="padding:34px 25px 25px; background:#ffffff;">
+            <div class="section-title" style="font-size:29px; line-height:34px; font-weight:bold; color:#034d75;">ВКУСНО. ПОЛЕЗНО.<br>ПО-ВАШЕМУ.</div>
+            <div style="padding-top:11px; font-size:14px; line-height:20px; color:#45626c;">Кисломолочные продукты МясновЪ —<br>с заботой о вкусе и пользе.</div>
+          </td></tr>
+
+          <!-- Product section macro: Bio -->
+          <tr><td class="mobile-pad" style="padding:0 20px 20px; background:#ffffff;">
+            <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background:#f6fcfe; border-radius:18px; overflow:hidden;">
+              <tr><td style="padding:19px 20px 12px;"><div style="font-size:11px; line-height:14px; color:#75bd20; font-weight:bold;">01</div><div style="padding-top:7px; font-size:24px; line-height:28px; font-weight:bold; color:#034d75;">Био-йогурты</div><div style="padding-top:6px; font-size:13px; line-height:18px; color:#45626c;">Питьевые йогурты с полезными лактобактериями LGG.</div></td></tr>
+              <tr><td><img class="fluid" src="https://raw.githubusercontent.com/papalife20195/-/arena/019f89a7-repo/email/v4/assets/bio-banner.jpg" width="560" alt="Био-йогурты" style="width:100%; height:220px; object-fit:cover;"></td></tr>
+              <tr><td style="padding:15px 15px 8px;"><table role="presentation" width="100%"><tr>
+                <td width="50%" class="mobile-stack mobile-stack-pad" valign="top" style="padding-right:6px;"><table role="presentation" width="100%" style="background:#ffffff; border-radius:12px;"><tr><td style="padding:14px;"><div style="font-size:13px; line-height:17px; font-weight:bold;">БИО йогурт</div><div style="padding-top:12px; color:#034d75; font-size:20px; font-weight:bold;">52 ₽</div><div style="padding-top:10px;"><a class="outline-button" href="https://www.coolclever.ru/catalog/myasnov/raznye-napravleniya-pitaniya/fermentirovannye-produkty/kislomolochnye-napitki-yogurty" style="display:inline-block; border:1px solid #2fa8df; padding:8px 12px; border-radius:18px; font-size:11px; font-weight:bold; color:#034d75;">ВЫБРАТЬ</a></div></td></tr></table></td>
+                <td width="50%" class="mobile-stack" valign="top" style="padding-left:6px;"><table role="presentation" width="100%" style="background:#ffffff; border-radius:12px;"><tr><td style="padding:14px;"><div style="font-size:13px; line-height:17px; font-weight:bold;">Вишня–черешня–чиа</div><div style="padding-top:12px; color:#034d75; font-size:20px; font-weight:bold;">72 ₽</div><div style="padding-top:10px;"><a class="outline-button" href="https://www.coolclever.ru/catalog/myasnov/raznye-napravleniya-pitaniya/fermentirovannye-produkty/kislomolochnye-napitki-yogurty" style="display:inline-block; border:1px solid #2fa8df; padding:8px 12px; border-radius:18px; font-size:11px; font-weight:bold; color:#034d75;">ВЫБРАТЬ</a></div></td></tr></table></td>
+              </tr></table></td></tr>
+              <tr><td align="center" style="padding:7px 15px 20px;"><a class="button" href="https://www.coolclever.ru/catalog/myasnov/raznye-napravleniya-pitaniya/fermentirovannye-produkty/kislomolochnye-napitki-yogurty" style="display:inline-block; padding:13px 25px; border-radius:24px; background:#2fa8df; color:#ffffff; font-size:12px; font-weight:bold;">ВЫБРАТЬ ЙОГУРТЫ</a></td></tr>
+            </table>
+          </td></tr>
+
+          <!-- Editorial block -->
+          <tr><td class="mobile-pad" style="padding:0 20px 20px;"><table role="presentation" width="100%" style="background:#034d75; border-radius:18px;"><tr><td class="mobile-stack mobile-pad" width="68%" style="padding:20px;" valign="top"><div style="font-size:21px; line-height:25px; color:#ffffff; font-weight:bold;">LGG — что это такое?</div><div style="padding-top:8px; font-size:13px; line-height:18px; color:#dbeef5;">Как био-йогурты влияют на настроение и что такое пробиотики — в блоге.</div></td><td class="mobile-stack mobile-center" width="32%" align="center" style="padding:20px 15px;"><a class="button" href="https://www.coolclever.ru/blog/moloko-bez-podmeny-otlichie-termostatnyh-i-rezervuarnyh-yogurtov" style="display:inline-block; padding:12px 18px; border-radius:22px; background:#75bd20; color:#ffffff; font-size:11px; font-weight:bold;">ЧИТАТЬ</a></td></tr></table></td></tr>
+
+          <!-- Reusable category block: Greek -->
+          <tr><td class="mobile-pad" style="padding:0 20px 20px;"><table role="presentation" width="100%" style="background:#f9fbfc; border-radius:18px; overflow:hidden;"><tr><td style="padding:19px 20px 12px;"><div style="font-size:11px; color:#75bd20; font-weight:bold;">02</div><div style="padding-top:7px; font-size:24px; line-height:28px; font-weight:bold; color:#034d75;">Греческие йогурты</div><div style="padding-top:6px; font-size:13px; line-height:18px; color:#45626c;">Мягкий сливочный вкус, бархатистая текстура и много белка.</div></td></tr><tr><td><img class="fluid" src="https://raw.githubusercontent.com/papalife20195/-/arena/019f89a7-repo/email/v4/assets/greek-banner.jpg" width="560" alt="Греческий йогурт с персиками" style="width:100%; height:230px; object-fit:cover;"></td></tr><tr><td align="center" style="padding:18px 15px 21px;"><span style="font-size:15px; font-weight:bold; color:#034d75;">Греческий йогурт — 64 ₽ &nbsp; • &nbsp; Двухслойный с нектарином — 74 ₽</span><br><a class="button" href="https://www.coolclever.ru/catalog/myasnov/raznye-napravleniya-pitaniya/fermentirovannye-produkty/kislomolochnye-napitki-yogurty" style="display:inline-block; margin-top:15px; padding:13px 25px; border-radius:24px; background:#034d75; color:#ffffff; font-size:12px; font-weight:bold;">СМОТРЕТЬ ВСЕ</a></td></tr></table></td></tr>
+
+          <!-- Thermostat -->
+          <tr><td class="mobile-pad" style="padding:0 20px 20px;"><table role="presentation" width="100%" style="background:#f9fbfc; border-radius:18px; overflow:hidden;"><tr><td style="padding:19px 20px 12px;"><div style="font-size:11px; color:#e99b34; font-weight:bold;">03</div><div style="padding-top:7px; font-size:24px; line-height:28px; font-weight:bold; color:#034d75;">Термостатные йогурты</div><div style="padding-top:6px; font-size:13px; line-height:18px; color:#45626c;">Густые и нежные — сохранили в себе пользу природного молока.</div></td></tr><tr><td><img class="fluid" src="https://raw.githubusercontent.com/papalife20195/-/arena/019f89a7-repo/email/v4/assets/thermostat-banner.jpg" width="560" alt="Термостатные йогурты с манго" style="width:100%; height:230px; object-fit:cover;"></td></tr><tr><td align="center" style="padding:18px 15px 21px;"><span style="font-size:15px; font-weight:bold; color:#034d75;">Термостатный — 48 ₽ &nbsp; • &nbsp; Термостатный Манго — 48 ₽</span><br><a class="button" href="https://www.coolclever.ru/catalog/myasnov/raznye-napravleniya-pitaniya/fermentirovannye-produkty/kislomolochnye-napitki-yogurty" style="display:inline-block; margin-top:15px; padding:13px 25px; border-radius:24px; background:#e99b34; color:#ffffff; font-size:12px; font-weight:bold;">СМОТРЕТЬ ВСЕ</a></td></tr></table></td></tr>
+
+          <!-- Cleverty promo -->
+          <tr><td align="center" style="padding:30px 20px; background:#75bd20; color:#ffffff;"><div style="font-size:25px; line-height:30px; font-weight:bold;">КЛЕВЕРТИ</div><div style="padding-top:7px; font-size:23px; line-height:28px; font-weight:bold;">–15% НА НАПИТКИ ОТ 2 ШТУК*</div><div style="padding-top:10px; font-size:13px; line-height:18px;">Яркий вкус, белок и лёгкость в каждом глотке</div></td></tr>
+
+          <!-- Cleverty -->
+          <tr><td class="mobile-pad" style="padding:20px 20px;"><table role="presentation" width="100%" style="background:#f9fbfc; border-radius:18px; overflow:hidden;"><tr><td style="padding:19px 20px 12px;"><div style="font-size:11px; color:#e95c80; font-weight:bold;">04</div><div style="padding-top:7px; font-size:24px; line-height:28px; font-weight:bold; color:#034d75;">Сывороточные напитки Клеверти</div><div style="padding-top:6px; font-size:13px; line-height:18px; color:#45626c;">Не только вкусные, но и полезные: белок усваивается полностью.</div></td></tr><tr><td><img class="fluid" src="https://raw.githubusercontent.com/papalife20195/-/arena/019f89a7-repo/email/v4/assets/cleverty-banner.jpg" width="560" alt="Сывороточные напитки Клеверти" style="width:100%; height:230px; object-fit:cover;"></td></tr><tr><td align="center" style="padding:18px 15px 21px;"><span style="font-size:15px; font-weight:bold; color:#034d75;">Молочная сыворотка — 59 ₽ &nbsp; • &nbsp; Персик–маракуйя — 54 ₽</span><br><a class="button" href="https://www.coolclever.ru/catalog/myasnov/raznye-napravleniya-pitaniya/fermentirovannye-produkty/kislomolochnye-napitki-yogurty" style="display:inline-block; margin-top:15px; padding:13px 25px; border-radius:24px; background:#e95c80; color:#ffffff; font-size:12px; font-weight:bold;">ВЫБРАТЬ КЛЕВЕРТИ</a></td></tr></table></td></tr>
+
+          <!-- Acidophilus -->
+          <tr><td class="mobile-pad" style="padding:0 20px 25px;"><table role="presentation" width="100%" style="background:#f9fbfc; border-radius:18px; overflow:hidden;"><tr><td style="padding:19px 20px 12px;"><div style="font-size:11px; color:#8e65b9; font-weight:bold;">05</div><div style="padding-top:7px; font-size:24px; line-height:28px; font-weight:bold; color:#034d75;">Ацидофилин</div><div style="padding-top:6px; font-size:13px; line-height:18px; color:#45626c;">Нежный и лёгкий продукт с дружелюбной молочнокислой бактерией.</div></td></tr><tr><td><img class="fluid" src="https://raw.githubusercontent.com/papalife20195/-/arena/019f89a7-repo/email/v4/assets/acidophilus-banner.jpg" width="560" alt="Ацидофилин со злаками и семенами льна" style="width:100%; height:230px; object-fit:cover;"></td></tr><tr><td align="center" style="padding:18px 15px 21px;"><span style="font-size:15px; font-weight:bold; color:#034d75;">Ацидофилин — 65 ₽ &nbsp; • &nbsp; Со злаками и льном — 88 ₽</span><br><a class="button" href="https://www.coolclever.ru/catalog/myasnov/raznye-napravleniya-pitaniya/fermentirovannye-produkty/kislomolochnye-napitki-yogurty" style="display:inline-block; margin-top:15px; padding:13px 25px; border-radius:24px; background:#8e65b9; color:#ffffff; font-size:12px; font-weight:bold;">В КАТАЛОГ</a></td></tr></table></td></tr>
+
+          <!-- Final CTA -->
+          <tr><td class="mobile-pad" style="padding:0 20px 22px; background:#ffffff;"><table role="presentation" width="100%" style="background:#034d75; border-radius:18px; overflow:hidden;"><tr><td align="center" style="padding:26px 20px 28px;"><div style="font-size:25px; line-height:30px; font-weight:bold; color:#ffffff;">КИСЛОМОЛОЧКА<br>НА КАЖДЫЙ ДЕНЬ</div><div style="padding:10px 0 18px; font-size:13px; line-height:18px; color:#dbeef5;">Завтраки, перекусы и простая забота о себе.</div><a class="button" href="https://www.coolclever.ru/catalog/myasnov/raznye-napravleniya-pitaniya/fermentirovannye-produkty/kislomolochnye-napitki-yogurty" style="display:inline-block; padding:14px 30px; border-radius:25px; background:#75bd20; color:#ffffff; font-size:13px; font-weight:bold;">В КАТАЛОГ</a></td></tr></table></td></tr>
+
+          <!-- Footer: replace legal placeholders in ESP -->
+          <tr><td align="center" style="padding:24px 22px 30px; background:#034d75; color:#ffffff;"><img src="https://raw.githubusercontent.com/papalife20195/-/arena/019f89a7-repo/email/v4/assets/logo.png" width="150" alt="КуулКлевер" style="width:150px; height:auto; margin:0 auto;"><div style="padding-top:16px; font-size:13px; line-height:19px;">КуулКлевер — от чистого сердца</div><div style="padding-top:11px; font-size:12px; line-height:18px;"><a href="https://www.coolclever.ru" style="color:#ffffff; text-decoration:underline;">Каталог</a>&nbsp;&nbsp;•&nbsp;&nbsp;<a href="https://www.coolclever.ru/blog" style="color:#ffffff; text-decoration:underline;">КуулКлевер Лайф</a>&nbsp;&nbsp;•&nbsp;&nbsp;<a href="https://www.coolclever.ru" style="color:#ffffff; text-decoration:underline;">Магазины</a></div><div style="padding-top:18px; font-size:10px; line-height:15px; color:#cde0e8;">Вы получили это письмо, потому что подписались на новости КуулКлевер.<br><a href="{{unsubscribe_url}}" style="color:#cde0e8; text-decoration:underline;">Отписаться от рассылки</a></div></td></tr>
+        </table>
+      </td></tr>
+    </table>
+  </center>
+</body>
+</html>
